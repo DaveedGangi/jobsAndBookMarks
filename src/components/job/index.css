@@ -1,0 +1,112 @@
+
+.job-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:13px;
+    background-image:linear-gradient(to right,rgba(34,193,195,1),rgba(253,187,45,1) );
+   }
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top:23px;
+    margin-bottom:77px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.job-type,.experience,.fee-charged,.place,.qualification,.salary-for-job{
+    font-size: 18px;
+    color: rgb(60, 63, 46);
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.job-poster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.poster{
+    width: 100%;
+
+    
+    margin-bottom: 55px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.category,.role,.min,.max,.views,.hours{
+    font-size: 18px;
+    color: rgb(10, 104, 96);
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+.whatsapp{
+    font-size: 18px;
+    color: rgb(188, 194, 220);
+    margin-bottom: 66px;
+    font-weight: 600;
+    font-family: "Roboto";
+    background-color: rgb(69, 131, 82);
+    padding:22px;
+    border-radius: 10px;
+}
+
+
+.card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 66px;
+}
+
+
+
+.button-add-bookmark{
+    font-size: 18px;
+    color: rgb(215, 199, 199);
+    padding: 10px 20px;
+    background-color: rgb(155, 89, 182);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom:66px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition:transform 0.3s ease;
+}
+.button-add-bookmark:hover{
+    background-color: rgb(182, 129, 89);
+    transform:scale(1.02) ;
+}
+.button-remove-bookmark{
+    font-size: 18px;
+    color: rgb(213, 29, 29);
+    padding: 10px 20px;
+    background-color: rgb(182, 129, 89);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom:66px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-remove-bookmark:hover{
+    background-color: rgb(232, 109, 109);
+    transform:scale(1.02) ;
+}
+
+@media (max-width: 768px) {
+    .card-top{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 600px;
+    }
+
+}

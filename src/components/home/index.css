@@ -1,0 +1,132 @@
+
+
+.bg-home{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height:100vh;
+    background-size:cover;
+   
+
+    
+    
+}
+
+.portal-title-name{
+    font-size:23px;
+    color: rgb(225, 202, 202);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    padding:20px;
+ 
+}
+
+.portal-name{
+    font-size: 50px;
+    color: rgb(108, 99, 99);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+
+}
+
+.portal-description-for-title{
+    font-size: 19px;
+    color: rgb(180, 210, 185);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    padding:20px;
+}
+.portal-para-name{
+    font-size: 20px;
+    color: rgb(76, 110, 66);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.job-button{
+    font-size: 15px;
+    background-color: rgb(237, 72, 72);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height:44px;
+    width:140px;
+    font-family:cursive;
+}
+.job-button:hover{
+    background-color: rgb(100, 5, 5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.book-marks-button{
+    font-size: 15px;
+    background-color: rgb(237, 72, 72);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height:44px;
+    width:140px;
+    font-family: cursive;
+}
+.book-marks-button:hover{
+    background-color: rgb(100, 5, 5);
+    color: white;
+    transform: scale(1.02);
+}
+
+.home-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:400px;
+}
+
+@media (max-width: 768px) {
+   .bg-home{
+      
+        background-image:url("https://images.pexels.com/photos/6931199/pexels-photo-6931199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        
+        width:100%;
+     
+        object-fit: contain;
+        background-size:cover;
+        background-position: ;
+        
+
+
+
+    }
+    .portal-title-name{
+        font-size: 20px;
+    }
+    .portal-name{
+        font-size: 30px;
+    }
+    .portal-description-for-title{
+        font-size: 15px;
+    }
+    .portal-para-name{
+        font-size: 15px;
+    }
+    .home-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height:200px;
+        width:300px;
+    }
+}
