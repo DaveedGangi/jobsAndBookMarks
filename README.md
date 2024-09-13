@@ -1,3 +1,31 @@
+
+
+
+### Note 
+
+I have developed a jobs and bookmark app by using react 
+
+added a responsiveness to the app 
+
+fetched the data from using those api 
+
+Used router for navigation purpose 
+
+storing data using local storage mechanism 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
